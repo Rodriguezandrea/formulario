@@ -1,0 +1,42 @@
+/*escritorios muy grandes*/
+@media (min-width: 1200px){
+    .caja{
+        width: 40%;
+    }
+}
+/*Tablets en horizontal y escritorios normales*/
+@media (min-width: 768px) {
+    .caja{
+        width: 65%;
+    }
+}
+/*Móviles en horizontal y tablets en vertical*/
+@media (max-width: 767px) {
+    .caja{
+        width: 85%;
+    }
+}
+/*moviles en evrtical*/
+@media (min-width:480px){
+    .caja{
+        width: 50%;
+    }
+}
+/*Tablets en horizontal y escritorios normales
+@media (max-width: 768px) {
+    .caja{
+        background-color: thistle;
+    }
+    .enviar{
+        background-color: white;
+    }
+}
+/*Móviles en vertical
+@media (max-width: 480px) {
+    .caja{
+        width: 90%;
+    }
+    .formulario{
+        font-size: 30;
+    }
+} */

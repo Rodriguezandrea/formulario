@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --ColorFondoPrimario: white;
+}
+.colorfondo{
+    background: turquoise;
+    font-family: 'Lato', sans-serif;
+}
+.formulario{
+    text-align: center;
+    /*para agrandar textos*/
+    font-size: 50px;
+}
+.caja{
+    width: 500px;
+    height: 550px;
+    padding: 20px;
+    margin: 40px auto;
+    background: var(--ColorFondoPrimario);
+    border: 1px solid white;
+    border-style: double;
+    border-width: 1px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(85, 83, 83);
+}
+.input1{
+    border-style: double;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+lavel{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 40px;
+}
+textarea{
+    border-style: double;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 90px;
+    width: 100%;
+    padding-left: 10px;
+    display: block;
+}
+.enviar{
+    background-color: turquoise;
+    /*  border-radius para redondear los formularios*/
+    border-radius: 10px ;
+    /*alto*/
+    height: 40px;
+    /*ancho*/
+    width: 100px;
+    display: block;
+     /* margin-top para centra un poco*/
+    margin-top: 10px;
+     /*para centrar botones, etc..*/
+    margin: 10px auto;
+    /* para ponerle color al borde*/
+    border: white;
+}
+h4{
+    /* para centrar textos*/
+    text-align: center;
+}
